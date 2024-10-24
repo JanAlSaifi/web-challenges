@@ -13,7 +13,7 @@
 }
 
 .park {
-  margin: 16px;
+  margin: 150px;
   border: 2px dashed silver;
   overflow: hidden;
   border-radius: 8px;
@@ -21,8 +21,10 @@
 }
 
 .animal {
-  padding: 16px;
-
+  padding: 136.2px;
+  margin: auto;
+  font-size: 32px;
+  display: inline;
   /*
     The animals are very small.
     The size of the emojis is controlled via the font size.
@@ -37,6 +39,29 @@
 
   💡 Select the animals by their class names and use the text-align property.
 */
+.dino {
+  text-align: left;
+}
+
+.dino:hover {
+  background-color: lightsalmon;
+}
+
+.giraffe {
+  text-align: center;
+}
+
+.giraffe:hover {
+  background-color: lightgreen;
+}
+
+.crocodile {
+  text-align: right;
+}
+
+.crocodile:hover {
+  background-color: lightblue;
+}
 
 /* 
   The animals want some color! 🎨
