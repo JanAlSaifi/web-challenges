@@ -9,7 +9,8 @@
 /* Task 2: Let's work on some basic stylings that we want to apply to all elements in your code via inheritance. Which selector do we need for this? */
 
 /* Add selector */
- {
+* {
+  box-sizing: border-box;
   font-family: monospace;
   font-size: 1rem;
   line-height: 1.5;
@@ -31,7 +32,11 @@
 */
 
 .title {
-  /* Your solution */
+  background-color: white;
+  margin-top: 0;
+  padding: 10px;
+  line-height: 1.2;
+  text-align: center;
 }
 
 /* ------- Sections ------- */
@@ -45,7 +50,17 @@
 */
 
 section {
-  /* Your solution */
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border-left: 5px solid orange;
+}
+
+.favourites {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border-left: 5px solid gold;
 }
 
 /* ------- Headings Part 2 ------- */
@@ -59,22 +74,31 @@ section {
 */
 
 .subtitle {
-  /* Your solution */
+  text-align: center;
+  border-right: 3px solid gold;
+  border-left: 3px solid gold;
+  display: inline-block;
 }
 
+.favourites .subtitle {
+  text-align: center;
+  border-right: 3px solid orange;
+  border-left: 3px solid orange;
+  display: inline-block;
+}
 /* ------- List ------- */
 
 /* Task 7: Finally, let's style our list with of favorite Pokémon. Which selector do we need? Also, add values for padding. */
 
 /* Add selector */
- {
+ul {
   list-style: "🧡";
-  padding-left: /* Add value */ ;
+  padding-left: 24px;
 }
 
 /* Add selector */
- {
-  padding-left: /* Add value */ ;
+li {
+  padding-left: 8px;
 }
 
 /* ------- The End -------- */
