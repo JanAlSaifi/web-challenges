@@ -1,0 +1,40 @@
+@import "./theme.css";
+@import "./header.css";
+@import "./main.css";
+@import "./cards.css";
+
+/* -------------------------------------------------------- */
+/* Global Styles */
+/* -------------------------------------------------------- */
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--body-bg);
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  background: var(--header-bg);
+  color: var(--header-text);
+  padding: 69.5px;
+}
+
+.button__go_top {
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+}
+
+.Impressum {
+  margin: 0;
+}

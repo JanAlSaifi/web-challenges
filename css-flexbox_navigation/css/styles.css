@@ -33,5 +33,5 @@ ul {
 .navigation__menu {
   display: flex;
   flex-flow: row wrap;
-  justify-content: ;
+  justify-content: space-between;
 }
