@@ -100,7 +100,7 @@ mark {
   border-radius: var(--border-radius-small);
   letter-spacing: var(--letter-sapcing: 0.025em);
 
-::selection {
+selection {
   background-color: var(--color-granite);
   color: var(--color-nemo);
 }
