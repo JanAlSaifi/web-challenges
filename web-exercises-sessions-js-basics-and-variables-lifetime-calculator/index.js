@@ -20,8 +20,10 @@ const year = 1;
 const expectedLife = year * 80;
 
 const currentAge = Number(process.argv[2]); // this gives you the <age> the user entered in the command "nodex index.js <age>"
+
 const currentDays = daysYear * currentAge;
-const remainingDays = expectedLife * daysYear - currentAge;
+const remainingDays = expectedLife * daysYear - currentDays;
+
 const percentageAlreadyLivedDays =
   (currentDays / (expectedLife * daysYear)) * 100;
 const alreadySleptTime = currentDays * sleepTime;
