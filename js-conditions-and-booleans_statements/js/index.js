@@ -14,7 +14,7 @@ if (SUPER_SECRET_PASSWORD) {
 // Part 2: Even / Odd
 const number = 6;
 
-if ((number === 0, 2, 4, 6, 8, 10)) {
+if (number % 2 === 0) {
   console.log(number, " is an even Number.");
 } else {
   console.log(number, " is an odd Number.");
