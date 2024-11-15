@@ -7,7 +7,7 @@ function renderStars() {
   starContainer.innerHTML = "";
 
   // --v-- write or modify code below this line --v--
-
+  for (let stars = 1; stars <= 5; stars++) {}
   // --^-- write or modify code above this line --^--
 }
 

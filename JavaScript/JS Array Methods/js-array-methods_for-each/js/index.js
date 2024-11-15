@@ -26,20 +26,11 @@ colors.forEach((color) => {
   document.body.append(divElement);
 });
 
-function renderColorBox() {
-  colors.forEach((color) => {
-    const divElement = document.createElement("div");
-    divElement.classList.add("color-box");
-    divElement.style.backgroundColor = color;
-    document.body.append(divElement);
-  });
+function renderColorBox(color) {
+  const divElement = document.createElement("div");
+  divElement.classList.add("color-box");
+  divElement.style.backgroundColor = color;
+  document.body.append(divElement);
 }
 
-renderColorBox();
-renderColorBox();
-renderColorBox();
-renderColorBox();
-renderColorBox();
-renderColorBox();
-renderColorBox();
-renderColorBox();
+colors.forEach(renderColorBox);
